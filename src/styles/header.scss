@@ -1,0 +1,26 @@
+header {
+  width: 100%;
+  background-color: var(--red);
+  padding: 1rem 0 1rem 1rem;
+  box-shadow: 2px 2px 4px;
+  margin-bottom: 1.5rem;
+
+  .title {
+    color: var(--shapes);
+    font-weight: 700;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .filter {
+      padding: 0.5rem;
+      border: none;
+      width: 25%;
+      border-radius: 0.6rem 0 0 0.6rem;
+      background-color: var(--shapes);
+
+      font: 1rem monospace;
+    }
+  }
+}
